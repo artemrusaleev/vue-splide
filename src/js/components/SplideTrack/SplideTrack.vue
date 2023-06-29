@@ -7,10 +7,9 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, onUpdated, inject, Ref } from 'vue';
-import { SPLIDE_INJECTION_KEY } from '../../constants/keys';
-import { Splide } from '@splidejs/splide';
-
+import { defineComponent, onUpdated, inject, type Ref } from "vue";
+import { SPLIDE_INJECTION_KEY } from "../../constants/keys";
+import { Splide } from "@splidejs/splide";
 /**
  * The component for the Splide track element.
  *
